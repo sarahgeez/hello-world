@@ -1,5 +1,5 @@
 {
-    "name": "with shake",
+    "name": "three-outputs",
     "description": "",
     "dependencies": {
         "core": "*",
