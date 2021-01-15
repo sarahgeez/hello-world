@@ -1,5 +1,10 @@
-basic.showString("Hello World")
-basic.forever(function () {
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.No)
+})
+input.onButtonPressed(Button.B, function () {
+    led.plot(2, 2)
+})
+input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -70,4 +75,7 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
+})
+basic.forever(function () {
+	
 })
