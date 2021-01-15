@@ -1,5 +1,5 @@
 {
-    "name": "with shake",
+    "name": "Hello World",
     "description": "",
     "dependencies": {
         "core": "*",
